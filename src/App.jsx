@@ -1,4 +1,5 @@
 
+import Faq from './Components/Faq'
 import Header from './Components/Header'
 import Math from './Components/Math'
 import Navbar from './Components/Navbar'
@@ -14,6 +15,7 @@ function App() {
       <Title />
       <Math />
       <Publisher />
+      <Faq />
     </div>
   )
 }

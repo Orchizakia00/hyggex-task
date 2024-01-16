@@ -1,9 +1,15 @@
 
-
 const Title = () => {
+
+    const textStyle = {
+        background: 'linear-gradient(180deg, #06286E 0%, #164EC0 100%)',
+        WebkitBackgroundClip: 'text',
+        WebkitTextFillColor: 'transparent',
+    };
+
     return (
         <div className="mb-12">
-            <p className="text-blue-800 font-bold text-3xl">Relations and Functions ( Mathematics )</p>
+            <p className="font-bold text-3xl" style={textStyle}>Relations and Functions ( Mathematics )</p>
         </div>
     );
 };

@@ -4,7 +4,7 @@ import plus from '../assets/plus.png'
 
 const Publisher = () => {
     return (
-        <div className='flex justify-between'>
+        <div className='flex justify-between mb-40'>
             <div className='flex items-center'>
                 {/* <img src={icon} className='bg-white' alt="" /> */}
                 <img src={logo} alt="" />
