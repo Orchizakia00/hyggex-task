@@ -21,7 +21,7 @@ const Navbar = () => {
                         {navItems}
                     </ul>
                 </div>
-                <a className="btn btn-ghost text-xl">
+                <a className="text-xl">
                     <img src={logo} alt="" />
                 </a>
             </div>
