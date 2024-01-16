@@ -2,6 +2,7 @@
 import Header from './Components/Header'
 import Math from './Components/Math'
 import Navbar from './Components/Navbar'
+import Publisher from './Components/Publisher'
 import Title from './Components/Title'
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <Header />
       <Title />
       <Math />
+      <Publisher />
     </div>
   )
 }
