@@ -1,14 +1,18 @@
 import logo from '../assets/Component 40.png'
 
 const Navbar = () => {
+    const bgStyle = {
+        background: 'linear-gradient(180deg, #06286E 0%, #164EC0 100%)',
+    };
 
     const navItems = <div className='flex items-center'>
         <li><a>Home</a></li>
         <li><a>Flashcard</a></li>
         <li><a>Contact</a></li>
         <li><a>FAQ</a></li>
-        <a className='btn bg-blue-900 text-white rounded-full px-8'>Login</a>
+        <a className='btn text-white rounded-full px-8' style={bgStyle}>Login</a>
     </div>
+
 
     return (
         <div className="navbar bg-base-100">
