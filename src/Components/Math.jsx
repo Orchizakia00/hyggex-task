@@ -10,6 +10,23 @@ const Math = () => {
     const gradientStyle = {
         background: 'linear-gradient(to bottom left, #051A91, #1F80EB)',
     };
+    const flipGradientStyle = {
+        background: 'linear-gradient(to bottom left, #051A91, #1F80EB)',
+    };
+
+    const handleFlip = () => {
+        return (
+            <div onClick={handleFlip} className="w-[70%] h-[400px] mx-auto rounded-3xl mb-8" style={flipGradientStyle}>
+                <div>
+                    <div className='flex justify-between px-8 pt-8'>
+                        <img src={bulb} alt="" />
+                        <img src={sound} alt="" />
+                    </div>
+                    <p className="text-4xl text-center font-bold mt-28 text-white">5x + 12</p>
+                </div>
+            </div>
+        )
+    }
 
     return (
         <div className="w-[70%] mx-auto mb-24">
@@ -20,7 +37,7 @@ const Math = () => {
                 <a role="tab" className="tab mr-2 border-b-neutral">Game</a>
                 <a role="tab" className="tab">Others</a>
             </div>
-            <div className="w-[70%] h-[400px] mx-auto rounded-3xl mb-8" style={gradientStyle}>
+            <div onClick={handleFlip} className="w-[70%] h-[400px] mx-auto rounded-3xl mb-8" style={gradientStyle}>
                 <div>
                     <div className='flex justify-between px-8 pt-8'>
                         <img src={bulb} alt="" />
