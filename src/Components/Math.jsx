@@ -7,26 +7,6 @@ import fullScreen from '../assets/full-screen.png'
 import { useState } from 'react'
 
 const Math = () => {
-
-    // const [isFlipped, setIsFlipped] = useState(false);
-
-    // const gradientStyle = {
-    //     background: 'linear-gradient(to bottom left, #051A91, #1F80EB)',
-    //     transform: 'rotateY(360deg)',
-    //     transition: 'transform 1s linear',
-    // };
-
-    // const flipGradientStyle = {
-    //     background: 'linear-gradient(to bottom left, #3B3486, #3468C0 )',
-    //     transform: 'rotateY(360deg)',
-    //     transition: 'transform 1s linear',
-    // };
-
-    // const handleFlip = () => {
-    //     console.log('flip clicked');
-    //     setIsFlipped(!isFlipped);
-    // };
-
     const [isFrontFlipped, setIsFrontFlipped] = useState(false);
     const [isBackFlipped, setIsBackFlipped] = useState(false);
 
